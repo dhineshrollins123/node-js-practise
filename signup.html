@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="description" content="" />
+		<meta
+			name="author"
+			content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
+		/>
+		<meta name="generator" content="Hugo 0.104.2" />
+		<title>Newsletter SignUp</title>
+
+		<link
+			rel="canonical"
+			href="https://getbootstrap.com/docs/5.2/examples/sign-in/"
+		/>
+
+		<!-- CSS only -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+			crossorigin="anonymous"
+		/>
+
+		<link rel="stylesheet" href="css/styles.css" />
+	</head>
+	<body class="text-center">
+		<form action="/" class="form-signin w-100 m-auto" method="post">
+			<img
+				class="mb-4 logo"
+				src="images/dk-logo-3.jpg"
+				alt=""
+				width="100"
+				height="100"
+			/>
+			<h1 class="h3 mb-3 fw-normal">Sign Up To Continue !</h1>
+			<div class="form-floating">
+				<input
+					type="text"
+					class="form-control top"
+					id="floatingInput1"
+					placeholder="First Name"
+					name="fName"
+					required
+					autofocus
+				/>
+                <label for="floatingInput1">First Name</label>
+			</div>
+
+			<div class="form-floating">
+				<input
+					type="text"
+					class="form-control middle"
+					id="floatingInput2"
+					placeholder="Last Name"
+					name="lName"
+					required
+				/>
+                <label for="floatingInput2">Last Name</label>
+			</div>
+
+			<div class="form-floating">
+				<input
+					type="email"
+					class="form-control bottom"
+					id="floatingInput3"
+					placeholder="Email ID"
+					name="email"
+					required
+				/>
+                <label for="floatingInput3">Email ID</label>
+			</div>
+
+			<button class="w-100 btn btn-lg btn-primary" type="submit">
+				Sign in
+			</button>
+			<p class="mt-5 mb-3 text-muted">&copy; DK-ROLLINS 2022</p>
+		</form>
+	</body>
+</html>
